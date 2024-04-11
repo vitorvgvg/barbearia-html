@@ -1,0 +1,220 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+  font-family: 'Boga';
+  src: url('MedulaOne-Regular.ttf')format('opentype');
+}
+
+header{
+	
+	background:black;
+	height: 150px;
+	width: 100%;
+}
+
+.caixa{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	
+}
+
+.logo{
+	position: absolute;
+	width: 15%;
+	display: inline;
+	top: 10px;
+	left: 0;
+}
+
+.navegacao{
+	position: absolute;
+	margin: 0 auto;
+	width: 33%;
+	text-align: center;
+	top: 30%;
+	right: 33%;
+}
+.navegacao li{
+
+	display: inline-block;
+	padding-left: 20px;
+	font-family: 'Boga';
+	font-size: 33px;
+}
+
+.navegacao ul li a{
+
+	color: #f67b29;
+	text-decoration: none;
+}
+.navegacao ul li a:hover{
+
+	color: white;
+	text-decoration: underline;
+}
+
+.navegacao ul li a:active{
+
+	color: white;
+	text-decoration: white;
+}
+
+.midias{
+
+	position: absolute;
+	width: 33%;
+	top: 33%;
+	right: 0%;
+}
+
+.midias li{
+
+	display: inline-block;
+	padding-left: 20px;
+	float: right;
+
+}
+
+.bloco-1{
+	height: 750px;
+	background: url('img/Banner-bloco1.jpg.png');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.caixa2{
+
+position: relative;
+margin: 0 auto;
+width: 80%;
+top: 20%;
+}
+
+.imagem1{
+	width: 25%;
+	margin-bottom: 20px;
+}
+
+.txt-1{
+	font-family: 'Boga';
+	font-size: 6em;
+	color: #f67b29;
+}
+.txt-1:hover{
+	color: white;
+}
+
+.btn-branco{
+	margin-top: 10px;
+	width: 200px;
+	height: 55px;
+	background: transparent;
+	border: solid #f67b29 2px;
+	color: #f67b29;
+	text-align: center;
+	font-size: 16px;
+}
+
+.btn-branco:hover{
+	border: solid white 2px;
+	color: white;
+
+}
+.bloco-2{
+
+	width: 100%;
+	height: 550px;
+	background: black;
+	padding: 30px;
+}
+.caixa3{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	top: 20px;
+
+}
+
+.txt-2{
+	
+	font-family: 'Boga';
+	font-size: 44px;
+	color: #f67b29;
+	text-align: center;
+	padding-top: 20px ;
+
+}
+.produtos {
+	padding-top: 20px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos li {
+	display: inline-block;
+	color: #f67b29;
+	text-align: center;
+	border: #f67b29 2px solid;
+	border-radius: 5px;
+	padding: 20px;
+	margin-left: 15px;
+	
+}
+.produtos li a {
+
+	color: #f67b29;
+	text-decoration: none;
+}
+
+.produtos li a:hover {
+
+	color: wheat;
+	text-decoration: none;
+}
+.produtos h3{
+
+	font-size: 25px;
+}
+
+.produtos li:hover{
+	border: wheat 2px solid;
+	color: wheat;
+
+}
+
+.bloco-3{
+	height: 850px;
+	background: black;
+}
+.caixa4{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	top: 70px;
+	padding: 50px;
+}
+.txt-3{
+	width: 100%;
+}
+.txt-3 h3{
+	font-family: 'Boga';
+	font-size: 44px;
+	color: #f67b29;
+	text-align: center;
+}
+
+.txt-3 p{
+	color: wheat;
+	font-size: 22px;
+	text-align: center;	
+}
+
+.bloco-4{
+	height: 600px;
+	background: url('img/Banner-bloco1.jpg.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
